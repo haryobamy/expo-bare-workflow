@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "expo/tsconfig.base",
+    "@react-native/typescript-config/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "tailwind.config.js",
+    "nativewind-env.d.ts"
+  ]
+}
