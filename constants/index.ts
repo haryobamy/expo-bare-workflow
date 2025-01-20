@@ -1,7 +1,7 @@
 import icons from './icons';
 import images from './images';
 import {COLORS, SIZES, FONTS} from './theme';
-import GOOGLE_API_KEY from './maps';
+// import GOOGLE_API_KEY from './maps';
 import {IconCheck} from './generics';
 import {
   initialCurrentLocation,
@@ -18,7 +18,7 @@ export {
   COLORS,
   SIZES,
   FONTS,
-  GOOGLE_API_KEY,
+  // GOOGLE_API_KEY,
   initialCurrentLocation,
   categoryData,
   affordable,
